@@ -45,8 +45,8 @@ RUN mkdir -p /home/mindspore/.jupyter/lab/user-settings/@jupyterlab/terminal-ext
 
 WORKDIR /home/mindspore/work
 
-COPY --chown=mindspore:mindspore  傻瓜式教程.ipynb  ./
-COPY --chown=mindspore:mindspore  Jupyter操作文档.ipynb  ./
+COPY --chown=mindspore:mindspore  study.ipynb  ./
+COPY --chown=mindspore:mindspore  Jupyter_operate.ipynb  ./
 
 EXPOSE 8080 
 
